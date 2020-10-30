@@ -1,0 +1,31 @@
+
+
+.footercon {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+
+.distance {
+    margin-bottom: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom {
+      margin-top: 1.0em;
+    }
+    .justify-content-end {
+        justify-content: flex-start!important;
+    }
+
+  }
+
+@media only screen and (min-width: 768px) {
+    .justify-content-end {
+        margin-top: 1em!important
+    }
+
+  }
+
+
+
