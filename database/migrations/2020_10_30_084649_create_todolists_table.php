@@ -17,7 +17,7 @@ class CreateTodolistsTable extends Migration
             $table->id();
             $table->string('todo');
             $table->string('slug');
-            $table->string('description');
+            $table->text('description');
             $table->timestamps();
             $table->softDeletes('deleted_at', 0);
         });
