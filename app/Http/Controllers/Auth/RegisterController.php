@@ -69,5 +69,11 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+
+        if(auth()->check()){
+            auth()->logout();
+        }
+
+        return redirect('home')->with('status', 'Success add data!');
     }
 }
