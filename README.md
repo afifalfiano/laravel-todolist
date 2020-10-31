@@ -56,6 +56,12 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Resource
+
+[Use JWT](https://www.positronx.io/laravel-jwt-authentication-tutorial-user-login-signup-api/)
+[Issue Publish Vendor](https://github.com/tymondesigns/jwt-auth/issues/1678)
+[Issue error jwt](https://github.com/tymondesigns/jwt-auth/issues/1094)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
